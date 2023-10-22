@@ -17,6 +17,11 @@ module.exports = {
                 // other exposes
             },
             shared:['faker']
+            // shared:{
+            //     faker:{
+            //         singleton
+            //     }
+            // }
         }),
         new HtmlWebPackPlugin({
             template:"./public/index.html"
